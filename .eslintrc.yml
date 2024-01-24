@@ -1,8 +1,10 @@
+# .eslintrc.yml
 env:
-  browser: true
-  es2021: true
-extends: airbnb-base
+  node: true
+  es2020: true
+extends:
+  - airbnb-base
 parserOptions:
-  ecmaVersion: latest
+  ecmaVersion: 11
   sourceType: module
 rules: {}
