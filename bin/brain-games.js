@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-console.log('Welcome to the Brain Games!');
+import { greetUser } from '../src/cli';
 
-import { greetUser } from '../src/cli.js';
+console.error('Welcome to the Brain Games!');
 
 greetUser();
