@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/katrinaMalkova/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/katrinaMalkova/frontend-project-44/actions)",
   "main": "index.js",
-  "bin": {
-    "brain-games": "bin/brain-games.js"
-  },
   "type": "module",
+  "bin": {
+    "code": "bin/brain-games.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -22,4 +21,3 @@
     "eslint-plugin-import": "^2.29.1"
   }
 }
-
