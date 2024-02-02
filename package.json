@@ -5,7 +5,12 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "code": "bin/brain-games.js"
+    "install": "npm ci",
+    "brain-games": "bin/brain-games.js",
+    "lint": "npx eslint .",
+    "publish": "npm publish --dry-run",
+    "make lint": "npx exlint .",
+    "lint fix": "npx eslint . --fix"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
