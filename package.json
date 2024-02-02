@@ -9,10 +9,12 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "npx eslint ."
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "escope": "^4.0.0",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
