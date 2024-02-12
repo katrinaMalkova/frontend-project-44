@@ -7,10 +7,7 @@
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
-    "lint": "npx eslint .",
-    "publish": "npm publish --dry-run",
-    "make lint": "npx exlint .",
-    "lint fix": "npx eslint . --fix"
+    "brain-calc": "bin/brain-calc.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
