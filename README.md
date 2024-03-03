@@ -3,4 +3,4 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/887206cf7cc875e491a1/maintainability)](https://codeclimate.com/github/katrinaMalkova/frontend-project-44/maintainability)
 
-[![Работа brain-even games](https://imgur.com/a/f5kowE9)]
+[![Работа brain-even games](https://imgur.com/BZrYHiQ)]
