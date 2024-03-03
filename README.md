@@ -9,7 +9,7 @@ Cкрины работы кода, аскинемы не работают.
 
 ![Brain-calc](https://i.postimg.cc/4xwf1Ksg/brain-calc.jpg)
 
-![Brain-gcd](https://i.postimg.cc/nL3BDcCR/brain-gcd.png)
+![Brain-gcd](https://imgur.com/ehLDPkQ)
 
 ![Brain-progression](https://i.postimg.cc/wj8X8jtZ/brain-progression.jpg)
 
