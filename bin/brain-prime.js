@@ -28,7 +28,6 @@ const brainPrime = () => {
   if (correctAnswer === userAnswer) {
     return 1;
   }
-  // eslint-disable-next-line no-use-before-define
   lose(userAnswer, correctAnswer, name);
   return 0;
 };

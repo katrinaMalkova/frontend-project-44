@@ -1,10 +1,10 @@
 #!/usr/bin/env node
-// @ts-expect-error
+
 import readlineSync from 'readline-sync';
 import greetUser from '../src/cli.js';
 import { gameStart, lose } from '../src/index.js';
 
-// @ts-expect-error
+
 const gcd = (a, b) => {
   if (b === 0) {
     return a;
@@ -14,7 +14,7 @@ const gcd = (a, b) => {
 
 const generateRandomNumber = () => Math.floor(Math.random() * 100) + 1;
 
-// @ts-expect-error
+
 const brainGCD = (name) => {
   const number1 = generateRandomNumber();
   const number2 = generateRandomNumber();

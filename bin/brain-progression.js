@@ -45,7 +45,6 @@ function brainProgression() {
   if (parseInt(userAnswer, 10) === correctAnswer) {
     return 1;
   }
-  // eslint-disable-next-line no-use-before-define
   lose(userAnswer, correctAnswer, name);
   return 0;
 }
