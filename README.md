@@ -3,7 +3,12 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/887206cf7cc875e491a1/maintainability)](https://codeclimate.com/github/katrinaMalkova/frontend-project-44/maintainability)
 
-Cкрины работы кода, аскинемы не работают.
+аскинема
+
+![Brain-games](agg https://asciinema.org/a/Yx1fR53SxdOnSQ4qepwj9GceP 647860.gif)
+
+
+Cкрины работы кода
 
 ![Brain-games](https://i.postimg.cc/zGLVcXQR/brain-even.png)
 
