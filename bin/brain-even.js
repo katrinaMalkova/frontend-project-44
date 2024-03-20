@@ -35,4 +35,4 @@ const braineven = () => {
   console.log(`Congratulations, ${name}!`);
 };
 
-export default braineven();
+braineven();
