@@ -1,9 +1,7 @@
 #!/usr/bin/env node
-
 import readlineSync from 'readline-sync';
 import greetUser from '../src/cli.js';
 import { gameStart, lose } from '../src/index.js';
-
 
 const gcd = (a, b) => {
   if (b === 0) {
@@ -13,7 +11,6 @@ const gcd = (a, b) => {
 };
 
 const generateRandomNumber = () => Math.floor(Math.random() * 100) + 1;
-
 
 const brainGCD = (name) => {
   const number1 = generateRandomNumber();

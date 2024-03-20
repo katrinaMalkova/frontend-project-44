@@ -32,7 +32,7 @@ const showProgression = (mass, index) => {
   return str;
 };
 
-function brainProgression() {
+function brainProgression(name) {
   const progressionStart = getRandomInt(0, progressionMaxStart);
   const progressionStep = getRandomInt(1, progressionMaxStep);
   const progressionLen = getRandomInt(progressMinLen, progressMaxLen);

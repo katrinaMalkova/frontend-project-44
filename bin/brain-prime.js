@@ -19,7 +19,7 @@ function checkPrime(number) {
 
 const generateMaxNumber = () => Math.floor(Math.random() * 200);
 
-const brainPrime = () => {
+const brainPrime = (name) => {
   const randomNumber = generateMaxNumber();
   console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
   console.log(`Question: ${randomNumber}`);
