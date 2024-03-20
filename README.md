@@ -5,7 +5,7 @@
 
 аскинема
 
-![Brain-games](agg https://asciinema.org/a/Yx1fR53SxdOnSQ4qepwj9GceP 647860.gif)
+Brain-games(agg https://asciinema.org/a/Yx1fR53SxdOnSQ4qepwj9GceP 647860.gif)
 
 
 Cкрины работы кода
