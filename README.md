@@ -5,17 +5,14 @@
 
 аскинема
 
-Brain-games(agg https://asciinema.org/a/Yx1fR53SxdOnSQ4qepwj9GceP 647860.gif)
+Brain-games(https://asciinema.org/a/Yx1fR53SxdOnSQ4qepwj9GceP 647860.gif)
 
+Brain-even(https://asciinema.org/a/BsP1oQKLk4oXuaNJuy93jcMLk 648421.gif)
 
-Cкрины работы кода
+Brain-calc(https://asciinema.org/a/V5VyViax5FF9bda5Y8tor5jQu 648423.gif)
 
-![Brain-games](https://i.postimg.cc/zGLVcXQR/brain-even.png)
+Brain-gcd(https://asciinema.org/a/YaUjcwIVoWwzJB6zKsGcI4GoO 648424.gif)
 
-![Brain-calc](https://i.postimg.cc/4xwf1Ksg/brain-calc.jpg)
+Brain-progression(https://asciinema.org/a/GQesmuCiiKpuv424jrGOA5bqR 648425.gif)
 
-![Brain-gcd](https://i.postimg.cc/nL3BDcCR/brain-gcd.png)
-
-![Brain-progression](https://i.postimg.cc/wj8X8jtZ/brain-progression.jpg)
-
-![Brain-prime](https://i.postimg.cc/nVTdK7P2/brain-prime.png)
+Brain-prime(https://asciinema.org/a/vK2JuWhCtIRL1gTEhUUVo5TYA)
