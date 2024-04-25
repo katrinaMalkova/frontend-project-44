@@ -1,8 +1,10 @@
 #!/usr/bin/env node
+
 import readlineSync from 'readline-sync';
 import greetUser from '../src/cli.js';
 import { gameStart, lose } from '../src/gameBody.js';
 
+// Функция, которая проверяет, является ли число простым
 function checkPrime(number) {
   if (number <= 1) {
     return 'no';
@@ -17,21 +19,27 @@ function checkPrime(number) {
   return 'yes';
 }
 
+// Функция, которая генерирует случайное число до 200
 const generateMaxNumber = () => Math.floor(Math.random() * 200);
 
+// Функция, содержащая логику игры на определение простого числа
 const brainPrime = (name) => {
   const randomNumber = generateMaxNumber();
   console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
   console.log(`Question: ${randomNumber}`);
+
   const correctAnswer = checkPrime(randomNumber);
   const userAnswer = readlineSync.question('Your answer: ');
+
   if (correctAnswer === userAnswer) {
     return 1;
   }
+
   lose(userAnswer, correctAnswer, name);
   return 0;
 };
 
+// Присваиваем функцию brainPrime переменной gameName и вызываем функции приветствия и старта игры
 const gameName = brainPrime;
 const name = greetUser();
 gameStart(name, gameName, 3);
