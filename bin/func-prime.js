@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
 import greetUser from '../src/cli.js';
-import { gameStart, lose } from '../src/index.js';
+import { gameStart, lose } from '../src/gameBody.js';
 
 function checkPrime(number) {
   if (number <= 1) {

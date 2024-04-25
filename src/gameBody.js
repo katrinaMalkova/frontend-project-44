@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/prefer-default-export
 export function gameStart(name, gameName, repeats) {
   for (let i = 0; i < repeats; i += 1) {
     if (gameName(name) === 1) {
