@@ -12,7 +12,7 @@
 [![asciicast](https://asciinema.org/a/XWPHzSY7kux0AfHhHCouiv6BG.svg)](https://asciinema.org/a/XWPHzSY7kux0AfHhHCouiv6BG)
 
 # Brain-calc
-[![asciicast](https://asciinema.org/a/V5VyViax5FF9bda5Y8tor5jQu.svg)](https://asciinema.org/a/V5VyViax5FF9bda5Y8tor5jQu)
+[![asciicast](https://asciinema.org/a/UbNhFigP0ekW2Ztwe6D3VFWMp.svg)](https://asciinema.org/a/UbNhFigP0ekW2Ztwe6D3VFWMp)
 
 # Brain-gcd
 [![asciicast](https://asciinema.org/a/YaUjcwIVoWwzJB6zKsGcI4GoO.svg)](https://asciinema.org/a/YaUjcwIVoWwzJB6zKsGcI4GoO)

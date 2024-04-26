@@ -15,7 +15,21 @@ const generateMathExpression = () => {
   return `${num1} ${operator} ${num2}`;
 };
 
-const calculateExpression = (expression) => eval(expression);
+const calculateExpression = (expression) => {
+  const allowedOperators = /^[+\- * /]. * $/;
+  if (!allowedOperators.test(expression)) {
+    throw new Error('Invalid expression');
+  }
+  const [num1, operator, num2] = expression.split('').reverse().join('').match(/\d+|[+\- * /]/g)
+    .reverse();
+  switch (operator) {
+    case '+': return Number(num1) + Number(num2);
+    case '-': return Number(num1) - Number(num2);
+    case ' * ': return Number(num1) * Number(num2);
+    case '/': return Number(num1) / Number(num2);
+    default: throw new Error('Invalid operator');
+  }
+};
 
 export const brainCalc = (PlayerName) => {
   const expression = generateMathExpression();
