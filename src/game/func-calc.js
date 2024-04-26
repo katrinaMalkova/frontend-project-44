@@ -1,40 +1,30 @@
-import { getAnswer, answerCheck } from '../gameBody.js';
+import { getRandomInt } from '../cli.js';
+import { answerCheck, getAnswer } from '../gameBody.js';
 
+const randMax = 25;
 export const str = 'What is the result of the expression?';
+export const a = 3;
 
-const randomOperation = () => {
-  const operations = ['+', '-', ' * '];
-  const randomIndex = Math.floor(Math.random() * operations.length);
-  return operations[randomIndex];
-};
+const operations = ['+', '-', '*'];
 
-const generateMathExpression = () => {
-  const num1 = Math.floor(Math.random() * 101);
-  const num2 = Math.floor(Math.random() * 101);
-  const operator = randomOperation();
-  return `${num1} ${operator} ${num2}`;
-};
-
-const calculateExpression = (expression) => {
-  const allowedOperators = /^[+\- * /]. * $/;
-  if (!allowedOperators.test(expression)) {
-    throw new Error('Invalid expression');
+export const brainCalc = (name) => {
+  const [number1, number2] = [getRandomInt(0, randMax), getRandomInt(0, randMax)];
+  const operation = getRandomInt(0, 2);
+  let correctAnswer;
+  switch (operation) {
+    case 0:
+      correctAnswer = number1 + number2;
+      break;
+    case 1:
+      correctAnswer = number1 - number2;
+      break;
+    case 2:
+      correctAnswer = number1 * number2;
+      break;
+    default:
+      return 0;
   }
-  const [num1, operator, num2] = expression.split('').reverse().join('').match(/\d+|[+\- * /]/g)
-    .reverse();
-  switch (operator) {
-    case '+': return Number(num1) + Number(num2);
-    case '-': return Number(num1) - Number(num2);
-    case ' * ': return Number(num1) * Number(num2);
-    case '/': return Number(num1) / Number(num2);
-    default: throw new Error('Invalid operator');
-  }
-};
-
-export const brainCalc = (PlayerName) => {
-  const expression = generateMathExpression();
-  const correctAnswer = calculateExpression(expression);
-  const question = `${expression}`;
+  const question = `${number1} ${operations[operation]} ${number2}`;
   const answer = getAnswer(question);
-  return answerCheck(answer, correctAnswer, PlayerName);
+  return answerCheck(answer, correctAnswer, name);
 };
