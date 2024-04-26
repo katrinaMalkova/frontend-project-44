@@ -6,10 +6,10 @@
 ## Asciinema
 
 # Brain-games
-[![asciicast](https://asciinema.org/a/Yx1fR53SxdOnSQ4qepwj9GceP.svg)](https://asciinema.org/a/Yx1fR53SxdOnSQ4qepwj9GceP)
+[![asciicast](https://asciinema.org/a/WkfQmzmgx73ScHsRx3vA15MFk.svg)](https://asciinema.org/a/WkfQmzmgx73ScHsRx3vA15MFk)
 
 # Brain-even
-[![asciicast](https://asciinema.org/a/BsP1oQKLk4oXuaNJuy93jcMLk.svg)](https://asciinema.org/a/BsP1oQKLk4oXuaNJuy93jcMLk)
+[![asciicast](https://asciinema.org/a/XWPHzSY7kux0AfHhHCouiv6BG.svg)](https://asciinema.org/a/XWPHzSY7kux0AfHhHCouiv6BG)
 
 # Brain-calc
 [![asciicast](https://asciinema.org/a/V5VyViax5FF9bda5Y8tor5jQu.svg)](https://asciinema.org/a/V5VyViax5FF9bda5Y8tor5jQu)
